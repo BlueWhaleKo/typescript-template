@@ -5,17 +5,22 @@
   "author": "BlueWhaleKo <koko8624@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.3.1",
-  "devDependencies": {
-    "@types/node": "18.11.18",
-    "@typescript-eslint/eslint-plugin": "5.49.0",
-    "@typescript-eslint/parser": "5.49.0",
-    "eslint": "8.33.0",
-    "typescript": "4.9.5"
-  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "nodemon --exec ts-node src/index.ts",
     "lint": "eslint --ext .ts src"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@typescript-eslint/eslint-plugin": "5.49.0",
+    "@typescript-eslint/parser": "5.49.0",
+    "access": "1.0.2",
+    "eslint": "8.33.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "prettier": "2.8.3",
+    "typescript": "4.6.3"
   }
 }
